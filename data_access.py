@@ -1,4 +1,4 @@
-# data_access.py - SIMPLE VERSION
+# data_access.py
 import pandas as pd
 from sqlalchemy import create_engine
 from typing import Tuple

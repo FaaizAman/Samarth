@@ -1,4 +1,4 @@
-# main.py - SIMPLE VERSION
+# main.py 
 import streamlit as st
 import os
 import re

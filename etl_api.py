@@ -42,7 +42,7 @@ def run_etl():
     """Fetches and loads data into SQLite DB."""
     print("\n--- Starting ETL Process ---")
 
-    # 1. Fetch Agriculture Data
+    # Fetch Agriculture Data
     df_agri = fetch_dgi_data(AGRICULTURE_RESOURCE_ID, limit=10000)
     if not df_agri.empty:
         # Clean column names
@@ -71,7 +71,7 @@ def run_etl():
 
         df_agri.to_sql('agri_data', ENGINE, if_exists='replace', index=False)
 
-    # 2. Fetch Climate Data
+    # Fetch Climate Data
     df_climate = fetch_dgi_data(RAINFALL_RESOURCE_ID, limit=10000)
     if not df_climate.empty:
         df_climate.columns = df_climate.columns.str.lower().str.replace(' ', '_')

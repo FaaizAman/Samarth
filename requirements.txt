@@ -1,0 +1,10 @@
+# requirements.txt
+python-dotenv
+pydantic
+pandas
+sqlalchemy
+streamlit
+openai
+requests
+numpy
+groq

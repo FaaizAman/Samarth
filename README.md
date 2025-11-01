@@ -23,3 +23,10 @@ This system provides natural language interface to query and correlate agricultu
 - Agriculture: Ministry of Agriculture & Farmers Welfare
 - Climate: India Meteorological Department
 - Portal: data.gov.in
+
+## Screenshots
+<img width="1920" height="1030" alt="1" src="https://github.com/user-attachments/assets/99c19c36-e6e3-4114-9ad1-a56fadac80f8" />
+
+<img width="1920" height="1030" alt="2" src="https://github.com/user-attachments/assets/710e1248-38c2-4f0f-a0bc-12063bb6f790" />
+
+<img width="1920" height="1030" alt="3" src="https://github.com/user-attachments/assets/51d9973b-e66e-4c78-8348-7a259aded3a2" />
